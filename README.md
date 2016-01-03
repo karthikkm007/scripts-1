@@ -1,7 +1,7 @@
 scripts
 ===============
 
-Helpful scripts for building MyRom for Redmi2
+Helpful scripts for building AOSP CAF Rom for Redmi2
 
 1. mkdir android (build folder)
  
