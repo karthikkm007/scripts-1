@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="kernel"
+          fetch="git://git.kernel.org/pub/scm/" />
+
+  <remote name="googlecode"
+          fetch="https://code.google.com/p/" />
+  
+  <remote name="github"
+          fetch="https://github.com/" />
+
+
+  <remove-project name="kernel/msm-3.10" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/build" />
+  <remove-project name="device/qcom/common" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/packages/apps/Mms" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/apps/Dialer" /> 
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  
+  <!--myrom repos-->
+
+  <project path="build"                                  name="redmi2/android_build"                                 remote="github"    revision="m4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>  
+  
+  <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="m4" />
+  <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="m4" />
+  <project path="device/hm2014811"                       name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="m4" />
+  <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="m4" />
+  <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="m4" />
+  
+  <project path="system/core"                            name="redmi2/android_system_core"                           remote="github"    revision="m4" />
+  <project path="system/vold"                            name="redmi2/android_system_vold"                           remote="github"    revision="m4" />
+  <project path="system/bt"                              name="redmi2/android_system_bt"                             remote="github"    revision="m4" />
+  <project path="external/busybox"                       name="redmi2/android_external_busybox"                      remote="github"    revision="m2" />
+  <project path="external/stlport"                       name="redmi2/android_external_stlport"                      remote="github"    revision="m4" />
+  <project path="art"                                    name="redmi2/android_art"                                   remote="github"    revision="m4" />
+  <project path="bionic"                                 name="redmi2/android_bionic"                                remote="github"    revision="m4" />
+  
+  <project path="hardware/libhardware"                   name="redmi2/android_hardware_libhardware"                  remote="github"    revision="m4" />
+
+  <project path="hardware/qcom/audio"                    name="redmi2/android_hardware_qcom_audio"                   remote="github"    revision="m4" />
+  <project path="hardware/qcom/wlan"                     name="redmi2/android_hardware_qcom_wlan"                    remote="github"    revision="m4" />
+  <project path="hardware/qcom/bt"                       name="redmi2/android_hardware_qcom_bt"                      remote="github"    revision="m4" />
+  <project path="hardware/ril"                           name="redmi2/android_hardware_ril"                          remote="github"    revision="m4" />
+  <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="m4" />
+    
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="redmi2/arm-eabi-4.9"                                remote="github"    revision="m4" />
+  
+  <project path="frameworks/base"                        name="redmi2/android_frameworks_base"                       remote="github"    revision="m4" />
+  <project path="frameworks/av"                          name="redmi2/android_frameworks_av"                         remote="github"    revision="m4" />
+  <project path="frameworks/opt/telephony"               name="redmi2/android_frameworks_opt_telephony"              remote="github"    revision="m4" />
+  <project path="frameworks/native"                      name="redmi2/android_frameworks_native"                     remote="github"    revision="m4" />
+  
+  <project path="packages/apps/Settings"                 name="redmi2/android_packages_apps_Settings"                remote="github"    revision="m4" />
+  <project path="packages/apps/Launcher3"                name="redmi2/packages_apps_Launcher3"                       remote="github"    revision="m4" />
+  
+  <project path="packages/providers/TelephonyProvider"   name="redmi2/packages_providers_TelephonyProvider"          remote="github"    revision="m4" />
+  <project path="packages/services/Telephony"            name="redmi2/packages_services_Telephony"                   remote="github"    revision="m4" />
+  <project path="packages/services/Telecomm"             name="redmi2/packages_services_Telecomm"                    remote="github"    revision="m4" />
+  <project path="packages/apps/Mms"                      name="redmi2/android_packages_apps_Mms"                     remote="github"    revision="m4" />
+  <project path="packages/apps/Dialer"                   name="redmi2/android_packages_apps_Dialer"                  remote="github"    revision="m4" />
+  <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="m4" />
+  <project path="packages/apps/Browser"                  name="redmi2/packages_apps_Browser"                         remote="github"    revision="m4" />
+  <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="m4" />
+  
+</manifest>
