@@ -39,6 +39,7 @@
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/vendor/qcom-opensource/fm" />
   
   <!--myrom repos-->
 
@@ -48,6 +49,7 @@
   
   <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="m4" />
   <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="m4" />
+  <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="m4" />
   <project path="device/hm2014811"                       name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="m4" />
   <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="m4" />
   <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="m4" />
