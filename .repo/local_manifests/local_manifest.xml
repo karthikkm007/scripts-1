@@ -40,6 +40,8 @@
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/vendor/qcom-opensource/location" />
   
   <!--myrom repos-->
 
@@ -69,7 +71,9 @@
   <project path="hardware/qcom/bt"                       name="redmi2/android_hardware_qcom_bt"                      remote="github"    revision="m4" />
   <project path="hardware/ril"                           name="redmi2/android_hardware_ril"                          remote="github"    revision="m4" />
   <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="m4" />
-    
+  <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="github"    revision="m4" />
+  <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="github"    revision="m4" />
+  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="redmi2/arm-eabi-4.9"                                remote="github"    revision="m4" />
   
   <project path="frameworks/base"                        name="redmi2/android_frameworks_base"                       remote="github"    revision="m4" />
