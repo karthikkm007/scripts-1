@@ -34,7 +34,6 @@
   <remove-project name="platform/packages/apps/FMRadio" />
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_qcom_bt" />
-  <remove-project name="android_external_sepolicy" />
   <remove-project name="android_device_qcom_sepolicy" />
   
   <!--banks_dynamic_gapps-->
@@ -50,8 +49,6 @@
   <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="m" />
   <project path="device/xiaomi/wt88047"                  name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="m" />
   <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="m" />
-  
-  <project path="external/sepolicy"                      name="redmi2/android_external_sepolicy"                     remote="github"    revision="m" />
   <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="m" />
   
   <project path="hardware/libhardware"                   name="redmi2/android_hardware_libhardware"                  remote="github"    revision="m" />
