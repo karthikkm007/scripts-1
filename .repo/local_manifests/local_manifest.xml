@@ -37,7 +37,7 @@
   <remove-project name="android_device_qcom_sepolicy" />
   
   <!--banks_dynamic_gapps-->
-  <project path="vendor/du/gapps"                        name="DirtyUnicorns/banks_dynamic_gapps"                   remote="github"    revision="m" />
+  <project path="vendor/gapps"                           name="DirtyUnicorns/banks_dynamic_gapps"                   remote="github"    revision="m" />
   
   <!--my repos-->
   
