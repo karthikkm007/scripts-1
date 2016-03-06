@@ -37,6 +37,9 @@
   <remove-project name="android_external_sepolicy" />
   <remove-project name="android_device_qcom_sepolicy" />
   
+  <!--banks_dynamic_gapps-->
+  <project path="vendor/du/gapps"                        name="DirtyUnicorns/banks_dynamic_gapps"                   remote="github"    revision="m" />
+  
   <!--my repos-->
   
   <project path="build"                                  name="redmi2/android_build"                                 remote="github"    revision="du" >
