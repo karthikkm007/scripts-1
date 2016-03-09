@@ -10,6 +10,9 @@
   <remote name="github"
           fetch="https://github.com/" />
           
+  <remote name="bitbucket"
+          fetch="https://pirej@bitbucket.org/" /> 
+          
   <remove-project name="kernel/msm-3.10" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/build" />
@@ -50,12 +53,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>  
   
-  <project path="kernel"                                 name="redmi2/kernel"                                        remote="bitbucket"    revision="mm" />
-  <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="bitbucket"    revision="mm" />
-  <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="bitbucket"    revision="mm" />
-  <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="bitbucket"    revision="mm" />
-  <project path="device/wt88047"                         name="redmi2/android_device_hm2014811_32"                   remote="bitbucket"    revision="mm" />
-  <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="bitbucket"    revision="mm" />
+  <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="mm" />
+  <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="mm" />
+  <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="mm" />
+  <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="github"    revision="mm" />
+  <project path="device/wt88047"                         name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="mm" />
+  <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="mm" />
   
   <project path="system/core"                            name="redmi2/android_system_core"                           remote="github"    revision="mm" />
   <project path="system/vold"                            name="redmi2/android_system_vold"                           remote="github"    revision="mm" />
@@ -74,10 +77,10 @@
   <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="mm" />
   <project path="hardware/qcom/sensors"                  name="redmi2/android_hardware_qcom_sensors"                 remote="github"    revision="mm" />
   
-  <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="bitbucket"    revision="mm" />
+  <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="github"    revision="mm" />
     
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="redmi2/arm-linux-androideabi-4.8"      remote="bitbucket" revision="m" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9"              name="redmi2/arm-eabi-4.9"                   remote="bitbucket" revision="m" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="redmi2/arm-linux-androideabi-4.8"      remote="github" revision="m" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9"              name="redmi2/arm-eabi-4.9"                   remote="github" revision="m" />
   
   <project path="frameworks/base"                        name="redmi2/android_frameworks_base"                       remote="github"    revision="mm" />
   <project path="frameworks/av"                          name="redmi2/android_frameworks_av"                         remote="github"    revision="mm" />
@@ -96,7 +99,7 @@
   <project path="packages/apps/Browser"                  name="redmi2/packages_apps_Browser"                         remote="github"    revision="mm" />
   <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="mm" />
   
-  <project path="external/sepolicy"                      name="redmi2/android_external_sepolicy"                     remote="bitbucket"    revision="mm" />
-  <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="bitbucket"    revision="mm" />
+  <project path="external/sepolicy"                      name="redmi2/android_external_sepolicy"                     remote="github"    revision="mm" />
+  <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="mm" />
  
 </manifest>
