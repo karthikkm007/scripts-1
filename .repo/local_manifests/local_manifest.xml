@@ -78,10 +78,7 @@
   <project path="hardware/qcom/sensors"                  name="redmi2/android_hardware_qcom_sensors"                 remote="github"    revision="mm" />
   
   <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="github"    revision="mm" />
-    
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="redmi2/arm-linux-androideabi-4.8"      remote="github" revision="m" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9"              name="redmi2/arm-eabi-4.9"                   remote="github" revision="m" />
-  
+      
   <project path="frameworks/base"                        name="redmi2/android_frameworks_base"                       remote="github"    revision="mm" />
   <project path="frameworks/av"                          name="redmi2/android_frameworks_av"                         remote="github"    revision="mm" />
   <project path="frameworks/opt/telephony"               name="redmi2/android_frameworks_opt_telephony"              remote="github"    revision="mm" />
