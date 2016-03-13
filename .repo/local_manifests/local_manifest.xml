@@ -48,6 +48,7 @@
   <remove-project name="platform/hardware/qcom/sensors" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   
   <!--myrom repos-->
 
