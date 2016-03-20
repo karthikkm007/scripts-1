@@ -36,7 +36,6 @@
   <remove-project name="android_hardware_qcom_bt" />
   <remove-project name="android_device_qcom_sepolicy" />
   
-  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" revision="m" />
   
   <!--my repos-->
   
@@ -76,7 +75,7 @@
   <project path="packages/apps/Calendar"                 name="redmi2/android_packages_apps_Calendar"                remote="github"    revision="du" />
   
   <project path="vendor/qcom/opensource/dataservices"    name="redmi2/opensource_dataservices"                       remote="github"    revision="m" />
-  <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="m" />
+  <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="mm" />
   <project path="vendor/qcom/opensource/bluetooth"       name="redmi2/qcom_opensource_bluetooth"                     remote="github"    revision="m" />
   <project path="art"                                    name="redmi2/android_art"                                   remote="github"    revision="du" />
   <project path="external/mm-dash"                       name="redmi2/android_external_mm-dash"                      remote="github"    revision="m" />    
