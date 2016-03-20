@@ -76,7 +76,6 @@
   
   <project path="vendor/qcom/opensource/dataservices"    name="redmi2/opensource_dataservices"                       remote="github"    revision="m" />
   <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="mm" />
-  <project path="vendor/qcom/opensource/bluetooth"       name="redmi2/qcom_opensource_bluetooth"                     remote="github"    revision="m" />
   <project path="art"                                    name="redmi2/android_art"                                   remote="github"    revision="du" />
   <project path="external/mm-dash"                       name="redmi2/android_external_mm-dash"                      remote="github"    revision="m" />    
   <project path="external/stlport"                       name="redmi2/android_external_stlport"                      remote="github"    revision="m4" />  
