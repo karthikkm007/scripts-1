@@ -43,7 +43,7 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="m" />
+  <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="test" />
   <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="m" />
   <project path="device/xiaomi/wt88047"                  name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="m" />
   <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="m" />
