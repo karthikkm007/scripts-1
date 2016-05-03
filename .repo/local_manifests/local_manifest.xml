@@ -49,6 +49,7 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
+  <remove-project name="platform/external/mm-dash" />
   
   <!--myrom repos-->
 
@@ -68,6 +69,7 @@
   <project path="system/bt"                              name="redmi2/android_system_bt"                             remote="github"    revision="mm" />
   <project path="external/busybox"                       name="redmi2/android_external_busybox"                      remote="github"    revision="m2" />
   <project path="external/stlport"                       name="redmi2/android_external_stlport"                      remote="github"    revision="mm" />
+  <project path="external/mm-dash"                       name="redmi2/android_external_mm-dash"                      remote="github"    revision="mm" />
   <project path="art"                                    name="redmi2/android_art"                                   remote="github"    revision="mm" />
   <project path="bionic"                                 name="redmi2/android_bionic"                                remote="github"    revision="mm" />
   
