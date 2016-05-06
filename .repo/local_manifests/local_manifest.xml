@@ -50,6 +50,7 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/external/mm-dash" />
+  <remove-project name="platform/packages/apps/InCallUI" />
   
   <!--myrom repos-->
 
@@ -98,6 +99,7 @@
   <project path="packages/services/Telecomm"             name="redmi2/packages_services_Telecomm"                    remote="github"    revision="mm" />
   <project path="packages/apps/Mms"                      name="redmi2/android_packages_apps_Mms"                     remote="github"    revision="mm" />
   <project path="packages/apps/Dialer"                   name="redmi2/android_packages_apps_Dialer"                  remote="github"    revision="mm" />
+  <project path="packages/apps/InCallUI"                 name="redmi2/android_packages_apps_InCallUI"                remote="github"    revision="mm" />
   <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="mm" />
   <project path="packages/apps/Browser"                  name="redmi2/packages_apps_Browser"                         remote="github"    revision="mm" />
   <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="mm" />
