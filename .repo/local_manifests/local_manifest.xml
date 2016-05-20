@@ -51,6 +51,7 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/external/mm-dash" />
   <remove-project name="platform/packages/apps/InCallUI" />
+  <remove-project name="platform/packages/apps/Gallery2" />
   
   <!--myrom repos-->
 
@@ -103,6 +104,7 @@
   <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="mm" />
   <project path="packages/apps/Browser"                  name="redmi2/packages_apps_Browser"                         remote="github"    revision="mm" />
   <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="mm" />
+  <project path="packages/apps/Gallery2"                 name="redmi2/android_packages_apps_Gallery2"                remote="github"    revision="mm" />
   
   <project path="external/sepolicy"                      name="redmi2/android_external_sepolicy"                     remote="github"    revision="mm" />
   <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="mm" />
