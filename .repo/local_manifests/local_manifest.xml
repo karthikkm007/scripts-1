@@ -59,7 +59,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>  
   
-  <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="mm" />
+  <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="test" />
   <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="mm" />
   <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="mm" />
   <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="github"    revision="mm" />
