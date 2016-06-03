@@ -4,6 +4,19 @@
   <remove-project name="android_hardware_qcom_wlan" />
   <remove-project name="android_frameworks_opt_telephony" />
 
+
+  <remove-project name="android_system_bt" />
+  <remove-project name="platform/frameworks/opt/bluetooth" />
+  <remove-project name="android_hardware_qcom_bt" />
+  
+  <remove-project name="android_packages_apps_Bluetooth" />
+  <remove-project name="android_frameworks_base" />
+  
+  <remove-project name="android_hardware_libhardware" />
+  <remove-project name="android_hardware_libhardware_legacy" />     
+  <remove-project name="platform/system/keymaster" />                                                                                                                      
+  
+  
   <project name="redmi2/android_device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="du" />
   <project name="redmi2/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="cm-13.0-wt88047" />
   <project name="redmi2/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="cm-13.0" />
@@ -14,6 +27,18 @@
   <project name="redmi2/qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="github" revision="mm" />
   <project name="redmi2/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="mm" />
   <project name="redmi2/android_frameworks_opt_telephony" path="frameworks/opt/telephony"  remote="github" revision="du" />
+  
+  <project name="redmi2/android_frameworks_base" path="frameworks/base"  remote="github" revision="du2" />
+  <project name="DirtyUnicorns/android_packages_apps_Snap"  path="packages/apps/snap" remote="github" revision="m-caf" />
+  
+  <project path="system/bt"                              name="redmi2/android_system_bt"                             remote="github"    revision="m" />
+  <project path="frameworks/opt/bluetooth"               name="redmi2/android_frameworks_opt_bluetooth"              remote="github"    revision="m" />
+  <project path="hardware/qcom/bt"                       name="redmi2/android_hardware_qcom_bt"                      remote="github"    revision="m" />
+  
+  <project path="packages/apps/Bluetooth"                name="redmi2/android_packages_apps_Bluetooth"               remote="github"    revision="m" />
 
+  <project path="hardware/libhardware"                   name="redmi2/android_hardware_libhardware"                  remote="github"    revision="m" />
+  <project path="hardware/libhardware_legacy"            name="redmi2/android_hardware_libhardware_legacy"           remote="github"    revision="m" />
+  <project path="system/keymaster"                       name="redmi2/android_system_keymaster"                      remote="github"    revision="m" /> 
   
 </manifest>
