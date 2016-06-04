@@ -29,7 +29,6 @@
   <project name="redmi2/android_frameworks_opt_telephony" path="frameworks/opt/telephony"  remote="github" revision="du" />
   
   <project name="redmi2/android_frameworks_base" path="frameworks/base"  remote="github" revision="du2" />
-  <project name="DirtyUnicorns/android_packages_apps_Snap"  path="packages/apps/snap" remote="github" revision="m-caf" />
   
   <project path="system/bt"                              name="redmi2/android_system_bt"                             remote="github"    revision="m" />
   <project path="frameworks/opt/bluetooth"               name="redmi2/android_frameworks_opt_bluetooth"              remote="github"    revision="m" />
@@ -39,6 +38,6 @@
 
   <project path="hardware/libhardware"                   name="redmi2/android_hardware_libhardware"                  remote="github"    revision="m" />
   <project path="hardware/libhardware_legacy"            name="redmi2/android_hardware_libhardware_legacy"           remote="github"    revision="m" />
-  <project path="system/keymaster"                       name="redmi2/android_system_keymaster"                      remote="github"    revision="m" /> 
+  <project path="system/keymaster"                       name="redmi2/android_system_keymaster"                      remote="github"    revision="du" /> 
   
 </manifest>
