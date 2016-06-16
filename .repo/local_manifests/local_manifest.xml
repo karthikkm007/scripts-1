@@ -9,7 +9,7 @@
 
   
   <project name="redmi2/android_device_wingtech_wt88047" path="device/wingtech/wt88047" remote="github" revision="du-test" />
-  <project name="redmi2/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github" revision="cm-13.0-wt88047" />
+  <project name="redmi2/Xiaomi_Kernel_OpenSource" path="kernel/cyanogen/msm8916" remote="github" revision="mm6.0" />
   <project name="redmi2/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="cm-13.0" />
   <project name="redmi2/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="du-test" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
