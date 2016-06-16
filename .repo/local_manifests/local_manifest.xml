@@ -5,6 +5,7 @@
   <remove-project name="android_frameworks_opt_telephony" />
 
   <remove-project name="android_hardware_qcom_bt" />
+  <remove-project name="platform/frameworks/support" />
 
 
   
@@ -20,6 +21,8 @@
   <project name="redmi2/android_frameworks_opt_telephony" path="frameworks/opt/telephony"  remote="github" revision="du" />
 
   <project path="hardware/qcom/bt"   name="redmi2/android_hardware_qcom_bt"  remote="github"    revision="cm-13.0-caf" />
+  <project path="frameworks/support"   name="redmi2/platform_frameworks_support"  remote="github"    revision="marshmallow-dr1.6-release" />
+  
 
   
 </manifest>
