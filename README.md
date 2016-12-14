@@ -7,7 +7,7 @@ Helpful scripts for building AOSP CAF Rom for Redmi2
  
 repo init -u git://codeaurora.org/platform/manifest.git -b release -m [manifest] --repo-url=git://codeaurora.org/tools/repo.git --repo-branch=caf-stable
 
-2. repo init -u git://codeaurora.org/platform/manifest.git -b release -m LA.BR.1.2.9-01510-8x16.0 --repo-url=git://codeaurora.org/tools/repo.git --repo-branch=caf-stable
+2. repo init -u git://codeaurora.org/platform/manifest.git -b release -m LA.BR.1.2.9-01510-8x16.0.xml --repo-url=git://codeaurora.org/tools/repo.git --repo-branch=caf-stable
 
 3. clone this scripts in your build folder...
 
