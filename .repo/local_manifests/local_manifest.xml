@@ -33,6 +33,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/hardware/qcom/sensors" />
+  <remove-project name="platform/external/iw" />                                                
   
   <!--myrom repos-->
 
@@ -54,6 +55,7 @@
 
   <project path="external/busybox"                       name="redmi2/android_external_busybox"                      remote="github"    revision="n" />
   <project path="external/stlport"                       name="redmi2/android_external_stlport"                      remote="github"    revision="n" />
+  <project path="external/iw"                            name="redmi2/external_iw"                                   remote="github"      revision="n" />
   
   <project path="hardware/qcom/audio"                    name="redmi2/android_hardware_qcom_audio"                   remote="github"    revision="n" />
   <project path="hardware/qcom/wlan"                     name="redmi2/android_hardware_qcom_wlan"                    remote="github"    revision="n" />
