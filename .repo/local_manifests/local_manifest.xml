@@ -36,7 +36,8 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/external/iw" />  
   <remove-project name="platform/external/apache-http" /> 
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />                                          
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" /> 
+  <remove-project name="platform/packages/providers/MediaProvider" />                                         
   
   <!--myrom repos-->
 
@@ -76,6 +77,8 @@
   <project path="packages/services/Telephony"            name="redmi2/packages_services_Telephony"                   remote="github"    revision="n" />
 
   <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="n" />
+  
+  <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="n" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"    name="redmi2/arm-linux-androideabi-4.9"   remote="github"    revision="n" />
 
