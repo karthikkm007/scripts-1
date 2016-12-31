@@ -19,6 +19,7 @@
   <remove-project name="device/qcom/common" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/bt" />
@@ -41,45 +42,46 @@
   
   <!--myrom repos-->
 
-  <project path="build"                                  name="redmi2/android_build"                                 remote="github"    revision="n" >
+  <project path="build"                                  name="redmi2/android_build"                                 remote="github"    revision="nn" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>  
   
-  <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="n" />
-  <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="n" />
-  <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="n" />
-  <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="github"    revision="n" />
-  <project path="device/wt88047"                         name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="n" />
-  <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="n" />
-  <project path="system/sepolicy"                        name="redmi2/android_system_sepolicy"                       remote="github"    revision="n" />
-  <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="n" />
+  <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="nn" >
+  <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="nn" >
+  <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="nn" >
+  <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="github"    revision="nn" >
+  <project path="device/wt88047"                         name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="nn" >
+  <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="nn" >
+  <project path="system/sepolicy"                        name="redmi2/android_system_sepolicy"                       remote="github"    revision="nn" >
+  <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="nn" >
 
-  <project path="system/core"                            name="redmi2/android_system_core"                           remote="github"    revision="n" />
-  <project path="system/vold"                            name="redmi2/android_system_vold"                           remote="github"    revision="n" />
-  <project path="system/extras"                          name="redmi2/android_system_extras"                         remote="github"    revision="n" />
+  <project path="system/core"                            name="redmi2/android_system_core"                           remote="github"    revision="nn" >
+  <project path="system/vold"                            name="redmi2/android_system_vold"                           remote="github"    revision="nn" >
+  <project path="system/extras"                          name="redmi2/android_system_extras"                         remote="github"    revision="nn" >
 
-  <project path="external/busybox"                       name="redmi2/android_external_busybox"                      remote="github"    revision="n" />
-  <project path="external/stlport"                       name="redmi2/android_external_stlport"                      remote="github"    revision="n" />
-  <project path="external/iw"                            name="redmi2/external_iw"                                   remote="github"    revision="n" />
-  <project path="external/apache-http"                   name="redmi2/external_apache-http"                          remote="github"    revision="n" />
+  <project path="external/busybox"                       name="redmi2/android_external_busybox"                      remote="github"    revision="nn" >
+  <project path="external/stlport"                       name="redmi2/android_external_stlport"                      remote="github"    revision="nn" >
+  <project path="external/iw"                            name="redmi2/external_iw"                                   remote="github"    revision="nn" >
+  <project path="external/apache-http"                   name="redmi2/external_apache-http"                          remote="github"    revision="nn" >
   
-  <project path="hardware/qcom/audio"                    name="redmi2/android_hardware_qcom_audio"                   remote="github"    revision="n" />
-  <project path="hardware/qcom/wlan"                     name="redmi2/android_hardware_qcom_wlan"                    remote="github"    revision="n" />
-  <project path="hardware/qcom/bt"                       name="redmi2/android_hardware_qcom_bt"                      remote="github"    revision="n" />
-  <project path="hardware/ril"                           name="redmi2/android_hardware_ril"                          remote="github"    revision="n" />
-  <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="n" />
-  <project path="hardware/qcom/sensors"                  name="redmi2/android_hardware_qcom_sensors"                 remote="github"    revision="n" />
-  <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="github"    revision="n" />
+  <project path="hardware/qcom/audio"                    name="redmi2/android_hardware_qcom_audio"                   remote="github"    revision="nn" >
+  <project path="hardware/qcom/wlan"                     name="redmi2/android_hardware_qcom_wlan"                    remote="github"    revision="nn" >
+  <project path="hardware/qcom/bt"                       name="redmi2/android_hardware_qcom_bt"                      remote="github"    revision="nn" >
+  <project path="hardware/ril"                           name="redmi2/android_hardware_ril"                          remote="github"    revision="nn" >
+  <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="nn" >
+  <project path="hardware/qcom/sensors"                  name="redmi2/android_hardware_qcom_sensors"                 remote="github"    revision="nn" >
+  <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="github"    revision="nn" >
       
-  <project path="frameworks/base"                        name="redmi2/android_frameworks_base"                       remote="github"    revision="n" />
-  <project path="frameworks/opt/telephony"               name="redmi2/android_frameworks_opt_telephony"              remote="github"    revision="n" />
+  <project path="frameworks/base"                        name="redmi2/android_frameworks_base"                       remote="github"    revision="nn" >
+  <project path="frameworks/opt/telephony"               name="redmi2/android_frameworks_opt_telephony"              remote="github"    revision="nn" >
+  <project path="frameworks/av"                          name="redmi2/android_frameworks_av"                         remote="github"    revision="nn" >
     
-  <project path="packages/services/Telephony"            name="redmi2/packages_services_Telephony"                   remote="github"    revision="n" />
+  <project path="packages/services/Telephony"            name="redmi2/packages_services_Telephony"                   remote="github"    revision="nn" >
 
-  <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="n" />
+  <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="nn" >
   
-  <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="n" />
+  <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="nn" >
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"    name="redmi2/arm-linux-androideabi-4.9"   remote="github"    revision="n" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"    name="redmi2/arm-linux-androideabi-4.9"   remote="github"    revision="nn" >
 
 </manifest>
