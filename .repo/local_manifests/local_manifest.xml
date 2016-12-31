@@ -38,7 +38,8 @@
   <remove-project name="platform/external/iw" />  
   <remove-project name="platform/external/apache-http" /> 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" /> 
-  <remove-project name="platform/packages/providers/MediaProvider" />                                         
+  <remove-project name="platform/packages/providers/MediaProvider" />    
+  <remove-project name="platform/bionic" />                                     
   
   <!--myrom repos-->
 
@@ -54,7 +55,8 @@
   <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="nn" />
   <project path="system/sepolicy"                        name="redmi2/android_system_sepolicy"                       remote="github"    revision="nn" />
   <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="nn" />
-
+  
+  <project path="bionic"                                 name="redmi2/android_bionic"                                remote="github"    revision="nn" />
   <project path="system/core"                            name="redmi2/android_system_core"                           remote="github"    revision="nn" />
   <project path="system/vold"                            name="redmi2/android_system_vold"                           remote="github"    revision="nn" />
   <project path="system/extras"                          name="redmi2/android_system_extras"                         remote="github"    revision="nn" />
@@ -85,3 +87,4 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"    name="redmi2/arm-linux-androideabi-4.9"   remote="github"    revision="nn" />
 
 </manifest>
+
