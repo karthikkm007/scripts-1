@@ -42,7 +42,7 @@
   
   <!--myrom repos-->
 
-  <project path="build"                                  name="redmi2/android_build"                                 remote="github"    revision="nn" />
+  <project path="build"                                  name="redmi2/android_build"                                 remote="github"    revision="nn" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>  
   
