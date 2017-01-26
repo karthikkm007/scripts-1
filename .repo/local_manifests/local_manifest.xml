@@ -52,7 +52,7 @@
   </project>  
   
   <project path="kernel"                                 name="redmi2/kernel"                                        remote="github"    revision="nn" />
-  <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="nn" />
+  <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="test" />
   <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="nn" />
   <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="github"    revision="nn" />
   <project path="device/wt88047"                         name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="nn" />
@@ -74,7 +74,7 @@
   <project path="hardware/qcom/wlan"                     name="redmi2/android_hardware_qcom_wlan"                    remote="github"    revision="nn" />
   <project path="hardware/qcom/bt"                       name="redmi2/android_hardware_qcom_bt"                      remote="github"    revision="nn" />
   <project path="hardware/ril"                           name="redmi2/android_hardware_ril"                          remote="github"    revision="nn" />
-  <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="nn" />
+  <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="test" />
   <project path="hardware/qcom/sensors"                  name="redmi2/android_hardware_qcom_sensors"                 remote="github"    revision="nn" />
   <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="github"    revision="nn" />
   <project path="hardware/libhardware"                   name="redmi2/android_hardware_libhardware"                  remote="github"    revision="nn" />
