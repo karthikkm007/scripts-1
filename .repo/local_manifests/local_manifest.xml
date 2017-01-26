@@ -74,7 +74,7 @@
   <project path="hardware/qcom/wlan"                     name="redmi2/android_hardware_qcom_wlan"                    remote="github"    revision="nn" />
   <project path="hardware/qcom/bt"                       name="redmi2/android_hardware_qcom_bt"                      remote="github"    revision="nn" />
   <project path="hardware/ril"                           name="redmi2/android_hardware_ril"                          remote="github"    revision="nn" />
-  <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="test" />
+  <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="nn" />
   <project path="hardware/qcom/sensors"                  name="redmi2/android_hardware_qcom_sensors"                 remote="github"    revision="nn" />
   <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="github"    revision="nn" />
   <project path="hardware/libhardware"                   name="redmi2/android_hardware_libhardware"                  remote="github"    revision="nn" />
