@@ -43,7 +43,6 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/SnapdragonLauncher" />
-  <remove-project name="platform/packages/apps/CMFileManager" />
   <remove-project name="platform/packages/apps/Settings" />
   
   <!--myrom repos-->
@@ -90,9 +89,7 @@
   <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="nn" />
   <project path="packages/apps/SnapdragonLauncher"       name="redmi2/packages_apps_SnapdragonLauncher"              remote="github"    revision="nn" />
   <project path="packages/apps/Settings"                 name="redmi2/android_packages_apps_Settings"                remote="github"    revision="nn" />
-  
-  <project path="packages/apps/CMFileManager"            name="redmi2/packages_apps_CMFileManager"                   remote="github"    revision="nn" />
-  
+
   <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="nn" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"    name="redmi2/arm-linux-androideabi-4.9"   remote="github"    revision="nn" />
