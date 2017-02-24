@@ -44,6 +44,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/SnapdragonLauncher" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
   
   <!--myrom repos-->
 
@@ -88,6 +89,7 @@
 
   <project path="packages/apps/SnapdragonCamera"         name="redmi2/packages_apps_SnapdragonCamera"                remote="github"    revision="nn" />
   <project path="packages/apps/SnapdragonLauncher"       name="redmi2/packages_apps_SnapdragonLauncher"              remote="github"    revision="nn" />
+  <project path="packages/apps/SnapdragonGallery"        name="redmi2/packages_apps_SnapdragonGallery"               remote="github"    revision="nn" />
   <project path="packages/apps/Settings"                 name="redmi2/android_packages_apps_Settings"                remote="github"    revision="nn" />
 
   <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="nn" />
