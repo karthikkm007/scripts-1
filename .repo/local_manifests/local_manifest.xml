@@ -56,7 +56,7 @@
   <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="nn" />
   <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="nn" />
   <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="github"    revision="nn" />
-  <project path="device/wt88047"                         name="redmi2/android_device_hm2014811_32"                   remote="github"    revision="nn" />
+  <project path="device/wt88047"                         name="redmi2/android_device_wt88047_32"                     remote="github"    revision="nn" />
   <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="nn" />
   <project path="system/sepolicy"                        name="redmi2/android_system_sepolicy"                       remote="github"    revision="nn" />
   <project path="device/qcom/sepolicy"                   name="redmi2/device_qcom_sepolicy"                          remote="github"    revision="nn" />
