@@ -9,7 +9,7 @@ if [[ $# = 1 ]]; then
     fi
     case $1 in
     -u)
-      lunch caf_wt88047-userdebug && make bootimage -j4;
+      lunch caf_wt88047_64-userdebug && make bootimage -j4;
     ;;
     *)
       echo "ERROR: Unknow option";
