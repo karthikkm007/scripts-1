@@ -44,6 +44,7 @@
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/external/iw" />  
   <remove-project name="platform/external/apache-http" /> 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
@@ -58,6 +59,7 @@
   <project path="vendor/xiaomi"                          name="redmi2/proprietary_vendor_xiaomi"                     remote="github"    revision="n64" />
   <project path="vendor/qcom/opensource/fm"              name="redmi2/qcom_opensource_fm"                            remote="github"    revision="nn" />
   <project path="vendor/qcom/opensource/location"        name="redmi2/vendor_qcom_opensource_location"               remote="github"    revision="nn" />
+  <project path="vendor/qcom-opensource/bluetooth"       name="redmi2/vendor_qcom_opensource_bluetooth"              remote="github"    revision="nn" />
   <project path="device/wt88047"                         name="redmi2/android_device_wt88047_32"                     remote="github"    revision="nn" />
   <project path="device/wt88047_64"                      name="redmi2/android_device_wt88047_64"                     remote="github"    revision="n64" />
   <project path="device/qcom/common"                     name="redmi2/android_device_qcom_common"                    remote="github"    revision="n64" />
