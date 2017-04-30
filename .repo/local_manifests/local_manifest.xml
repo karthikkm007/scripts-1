@@ -33,6 +33,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/SnapdragonLauncher" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -101,6 +102,7 @@
   <project path="packages/apps/Dialer"                   name="redmi2/android_packages_apps_Dialer"                  remote="github"    revision="nn" />
   <project path="packages/apps/Settings"                 name="redmi2/android_packages_apps_Settings"                remote="github"    revision="nn" />
   <project path="packages/apps/Launcher3"                name="redmi2/packages_apps_Launcher3"                       remote="github"    revision="nn" />
+  <project path="packages/apps/Mms"                      name="redmi2/android_packages_apps_Mms"                     remote="github"    revision="nn" />
 
   <project path="packages/providers/MediaProvider"       name="redmi2/packages_providers_MediaProvider"              remote="github"    revision="nn" />
 
