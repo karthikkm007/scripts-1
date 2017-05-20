@@ -24,6 +24,7 @@
   <remove-project name="platform/hardware/qcom/sensors" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
@@ -52,6 +53,7 @@
   <remove-project name="platform/external/apache-http" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
   
   <!--myrom repos-->
 
@@ -91,6 +93,7 @@
   <project path="hardware/qcom/camera"                   name="redmi2/hardware_qcom_camera"                          remote="github"    revision="n64" />
   <project path="hardware/qcom/sensors"                  name="redmi2/android_hardware_qcom_sensors"                 remote="github"    revision="nn" />
   <project path="hardware/qcom/gps"                      name="redmi2/android_hardware_qcom_gps"                     remote="github"    revision="nn" />
+  <project path="hardware/qcom/media"                    name="redmi2/android_hardware_qcom_media"                   remote="github"    revision="nn" />
   
   <project path="frameworks/base"                        name="redmi2/android_frameworks_base"                       remote="github"    revision="nn" />
   <project path="frameworks/opt/telephony"               name="redmi2/android_frameworks_opt_telephony"              remote="github"    revision="nn" />
