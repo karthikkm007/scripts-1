@@ -26,6 +26,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
@@ -97,6 +98,7 @@
   <project path="hardware/qcom/media"                    name="redmi2/android_hardware_qcom_media"                   remote="github"    revision="nn" />
   <project path="hardware/ril"                           name="redmi2/android_hardware_ril"                          remote="github"    revision="nn" />
   <project path="hardware/libhardware"                   name="redmi2/android_hardware_libhardware"                  remote="github"    revision="nn" />
+  <project path="hardware/libhardware_legacy"            name="redmi2/android_hardware_libhardware_legacy"           remote="github"    revision="nn" />
   
   <project path="frameworks/base"                        name="redmi2/android_frameworks_base"                       remote="github"    revision="nn" />
   <project path="frameworks/opt/telephony"               name="redmi2/android_frameworks_opt_telephony"              remote="github"    revision="nn" />
