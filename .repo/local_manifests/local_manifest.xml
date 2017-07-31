@@ -55,7 +55,7 @@
   <remove-project name="platform/external/iw" />  
   <remove-project name="platform/external/apache-http" />
   <remove-project name="platform/external/f2fs-tools" />
-  <remove-project name="platform/external/e2fsprogs" /> path="external/e2fsprogs" 
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
   
